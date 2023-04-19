@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script type="text/javascript" src="./main.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+</head>
+<body>
+
+	<div class="main_window">
+
+
+
+		<div class="ranking_window">
+
+			<div class="navbar">
+				<ul>
+					<li><div id="1" onclick="gracze()">Aktywność Gracze</div></li>
+					<li><div id="2" onclick="org()">Aktywność Organizacje</div></li>
+					<li><div id="3" onclick="kile()">Top Zabójstwa</div></li>
+					<li><div id="4" onclick="faktury()">Top Faktury</div></li>
+					<li><div id="5" onclick="ranking()">Top Ranking</div></li>
+					<li><div id="6" onclick="napady()">Top Napady</div></li>
+				</ul>
+
+
+				<div class="ranking_section" id="gracze" >
+					<div class="ranking_window_name">
+						<p>Top 7 GRACZY</p>
+					</div>
+					<div class="ranking_list" id="list_gracze">
+
+
+
+					</div>
+				</div>
+
+				<div class="ranking_section" id="org" style="display: none;">
+					<div class="ranking_window_name">
+						<p>TOP 7 ORGANIZACJI</p>
+					</div>					
+					<div class="ranking_list" id="list_org">
+
+
+					</div>
+				</div>	
+				
+				<div class="ranking_section" id="kile" style="display: none;">
+					<div class="ranking_window_name">
+						<p>Top 7 ZABÓJCÓW</p>
+					</div>					
+					<div class="ranking_list" id="list_kile">
+
+
+					</div>
+				</div>
+
+				<div class="ranking_section" id="faktury" style="display: none;">
+					<div class="ranking_window_name">
+						<p>Top 7 FAKTUR</p>
+					</div>						
+					<div class="ranking_list" id="list_faktury">
+
+
+					</div>
+				</div>
+
+				<div class="ranking_section" id="ranking" style="display: none;">
+					<div class="ranking_window_name">
+						<p>Top 7 RANKING</p>
+					</div>						
+					<div class="ranking_list" id="list_ranking">
+
+
+					</div>
+				</div>
+
+				<div class="ranking_section" id="napady" style="display: none;">
+					<div class="ranking_window_name">
+						<p>Top 7 NAPADY</p>
+					</div>						
+					<div class="ranking_list" id="list_napady">
+
+
+					</div>
+				</div>
+			</div>
+
+
+
+
+		</div>
+
+
+
+
+
+	</div>
+
+
+</body>
+</html>
